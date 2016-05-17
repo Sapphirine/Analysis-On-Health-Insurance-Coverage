@@ -1,0 +1,9 @@
+code = {'AL','AZ','AR','CA','CO','CT','FL','GA','ID','IL','IN','IA','KS',...
+'KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NJ','NH','NM','NY','DE',...
+'NC','ND','OH','OK','OR','PA','SC','SD','TX','UT','VT','VA','WA','WV','WI',...
+'WY'};% NV RI TN
+
+for i=1:length(code)
+    state = code{i};
+    scanning(state,0.1)  % percentage can be adjust accordingly
+end
